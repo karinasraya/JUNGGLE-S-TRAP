@@ -99,9 +99,9 @@ class Graph
             	for (int i=0; i<adj[x].size(); i++)
             	{
                 	if (visited[adj[x][i]])
-                    continue;
+                    	continue;
                 	
-					distance[adj[x][i]] = distance[x] + 1;
+			distance[adj[x][i]] = distance[x] + 1;
                 	Q.push(adj[x][i]);
                 	visited[adj[x][i]] = 1;
             	}
@@ -198,7 +198,7 @@ void Gambar_simpangan()
             	if(simpangan[i][j]!=' ')
                 printf("\t| _%c_ |",simpangan[i][j]);
             
-				else
+		else
                 cout<<"\t| ___ |";
         }
         cout<<"\n";
@@ -276,16 +276,16 @@ int move(int x,int y)
                         
                         if(!S.empty())
                         {  
-							K=S.top();
-						}
+				K=S.top();
+			}
 						
                         S.push(make_pair(x,y));
                         x-=1;
                         
-						if((K.first==x)&&(K.second==y))
+			if((K.first==x)&&(K.second==y))
                      	{  
-						 	kehidupan--;
-						}
+				kehidupan--;
+			}
 						
                         simpangan[x][y] = '*';
                         steps++;
@@ -300,7 +300,7 @@ int move(int x,int y)
                 else
                     cout<<"\nCan't Move left Bro";
                 
-				if(kehidupan==0)
+		if(kehidupan==0)
                 {
                     cout<<"\n"<<player<<" Your Steps : "<<steps;
                     exit(0);
@@ -316,16 +316,16 @@ int move(int x,int y)
                         simpangan[x][y]='_';
                         if(!S.empty())
                         {  
-							K=S.top();
-						}
+				K=S.top();
+			}
 						
                         S.push(make_pair(x,y));
                         y+=1;
                         
-						if((K.first==x)&&(K.second==y))
+			if((K.first==x)&&(K.second==y))
                      	{  
-						 	kehidupan--;
-						}
+				kehidupan--;
+			}
 						
                         simpangan[x][y] = '*';
                         steps++;
@@ -356,16 +356,16 @@ int move(int x,int y)
                         simpangan[x][y]='_';
                         if(!S.empty())
                         {  
-							K=S.top();
-						}
+				K=S.top();
+			}
 						
                         S.push(make_pair(x,y));
                         x+=1;
                         
-						if((K.first==x)&&(K.second==y))
+			if((K.first==x)&&(K.second==y))
                      	{ 
-						 	kehidupan--;
-						}
+				kehidupan--;
+			}
 						
                         simpangan[x][y] = '*';
                         steps++;
@@ -421,7 +421,7 @@ int move(int x,int y)
                 break;
             }
             
-        	case 'Q':
+     	case 'Q':
             {
                 cout<<"\n"<<player<<" Your Steps : "<<steps;
                 termin=1;
@@ -440,7 +440,7 @@ int move(int x,int y)
         }
         }
 		
-		while(simpangan[x][y]!='@' && termin==0);
+	while(simpangan[x][y]!='@' && termin==0);
         return(termin);
 }
 
