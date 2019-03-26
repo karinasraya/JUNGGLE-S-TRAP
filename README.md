@@ -1,5 +1,12 @@
 # JUNGGLE-S-TRAP
 
+Member :
+1. Karina Soraya P	(05111740000003)
+2. Atika Rizki N	(05111740000015)
+3. Annas Nuril I	(05111740000042)
+
+#
+
 JUNGGLE'S TRAP is a game that use Breadth First Search (BFS) algorithm. This game has a story about a girl or boy that lost in junggle. Then he/she want to go out from junggle. But, in the junggle, there are so many high cliffs, and he/she can't passed the cliff. And the junggle consisting of 5 tier with different track. So, you should help her/him to go out from that junggle.
 
 #
@@ -38,3 +45,8 @@ For example, in the following graph, we start traversal from vertex 2. When we c
             	}
         }
         return distance[b];
+
+#
+
+<b> How To Play The Game ? </b>
+
