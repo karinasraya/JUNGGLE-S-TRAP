@@ -649,7 +649,7 @@ int main()
      cout<<endl;
      getchar();
      
-     cout<<"HI "<<name<<" "<<"WELCOME TO THE JUNGGLE !"<<endl<<endl;
+     cout<<"HI "<<name<<" "<<"WELCOME TO THE JUNGLE !"<<endl<<endl;
      cout<<"\nLET ME TELL YOU, HOW TO GO OUT FROM HERE !"<<endl<<endl;
      cout<<"--------------------------------------- READ THIS : ---------------------------------------"<<endl<<endl;     
      cout<<"1. YOU HAVE 3 ADDITIONAL LIVES AND IT WILL REDUCE WHEN YOU TRY TO COPY YOUR PREVIOUS MOVE\n"<<endl;;
