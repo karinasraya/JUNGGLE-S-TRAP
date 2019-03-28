@@ -80,7 +80,7 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 	![Gambar 6](/Image/6.PNG)
 	![Gambar 7](/Image/7.PNG)
 
-6. 8. When you reach the end of fifth level, the game will show leaderboard of the player.
+6. When you reach the end of fifth level, the game will show leaderboard of the player.
 
 	![Gambar 8](/Image/8.PNG)
 
