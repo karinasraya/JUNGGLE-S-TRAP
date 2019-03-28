@@ -71,21 +71,20 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 
 4. Choose your movement according to the instruction under the jungle. Do it step by step, one input for one movement.
    For example : You choose to move right, so you should type D. Your * will move to the next column.
-	
-5. Do it until you reach the @ so you can out from the jungle and get score. 
+   Do it until you reach the @ so you can out from the jungle and get score. 
 	![Gambar 3](/Image/3.PNG)
 
-6. After thet, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
+5. After thet, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
 	![Gambar 4](/Image/4.PNG)
 	![Gambar 5](/Image/5.PNG)
 	![Gambar 6](/Image/6.PNG)
 	![Gambar 7](/Image/7.PNG)
-7. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
-8. When you choose a movement that crosses the forest boundary, you will out from the game.
+6. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
+7. When you choose a movement that crosses the forest boundary, you will out from the game.
 
 	![Gambar 9](/Image/9.PNG)
 	
-9. When you reach the end of fifth level, the game will show leaderboard of the player.
+8. When you reach the end of fifth level, the game will show leaderboard of the player.
 
 	![Gambar 8](/Image/8.PNG)
 
