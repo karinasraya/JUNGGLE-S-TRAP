@@ -48,9 +48,13 @@ For example, in the following graph, we start traversal from vertex 2. When we c
 ```
 ## How To Play The Game ?
 
-1. You need to build the .cpp file
+###* You need to build the .cpp file
 
 using g++ compiler, the syntax should like below code
 ```shell
 g++ "JUNGGLE'S_TRAP.cpp" -o game
 ```
+
+###* execute the file that have been built
+###* execute the file that have been built
+
