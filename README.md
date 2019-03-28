@@ -65,3 +65,12 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 3. You are in LEVEL 1 now. Your position now is marked with a * . Your Goal is to reach the @ in the jungle. 
 
 	![Gambar 2](/images/2.jpg)
+
+4. Choose your movement according to the instruction under the jungle. Do it step by step, one input for one movement.
+   For example : You choose to move right, so you should type D. Your * will move to the next maze.
+   
+   	![Gambar 3]
+	
+5. Do it until you reach the @ so you can out from the jungle and get score. After thet, you can move to the next level. In this game there are 5 level.
+
+	![Gambar 4]
