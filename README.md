@@ -61,5 +61,7 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 
 	![Gambar Awal](/images/1.jpg)
 
-2. 
+2. Press Enter
+3. You are in LEVEL 1 now. Your position now is marked with a * . Your Goal is to reach the @ in the jungle. 
 
+	![Gambar 2](/images/2.jpg)
