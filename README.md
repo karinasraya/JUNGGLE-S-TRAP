@@ -65,7 +65,7 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 	
 	![Gambar 1](/Image/1.PNG)
 	
-3. Read the instructions carefully. You are in LEVEL 1 now. You have 3 lives. Your position now is marked with a ' * ' . Your Goal is to reach the '@' which is the exit way of the jungle. 'X' is the representative of the cliffs. 
+3. Read the instructions carefully. You are in LEVEL 1 now. You have 3 lives. Your position now is marked with a ' * ' . Your Goal is to reach the '@' which is the exit way of the jungle. 'X' is the representative of the cliffs. On the first level there is no cliff.
 
 	![Gambar 2](/Image/2.PNG)
 
