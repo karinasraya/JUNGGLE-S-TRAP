@@ -99,9 +99,9 @@ class Graph
             	for (int i=0; i<adj[x].size(); i++)
             	{
                 	if (visited[adj[x][i]])
-                    	continue;
+                    continue;
                 	
-			distance[adj[x][i]] = distance[x] + 1;
+					distance[adj[x][i]] = distance[x] + 1;
                 	Q.push(adj[x][i]);
                 	visited[adj[x][i]] = 1;
             	}
@@ -174,7 +174,6 @@ class trap_game
 
 void Gambar_simpangan()
 {
-    system("clear");
     cout<<"\n\n LEVEL "<<counter<<"\n\n";
     int i,j=0;
     cout<<"\n\n\n";
@@ -198,7 +197,7 @@ void Gambar_simpangan()
             	if(simpangan[i][j]!=' ')
                 printf("\t| _%c_ |",simpangan[i][j]);
             
-		else
+				else
                 cout<<"\t| ___ |";
         }
         cout<<"\n";
@@ -276,16 +275,16 @@ int move(int x,int y)
                         
                         if(!S.empty())
                         {  
-				K=S.top();
-			}
+							K=S.top();
+						}
 						
                         S.push(make_pair(x,y));
                         x-=1;
                         
-			if((K.first==x)&&(K.second==y))
+						if((K.first==x)&&(K.second==y))
                      	{  
-				kehidupan--;
-			}
+						 	kehidupan--;
+						}
 						
                         simpangan[x][y] = '*';
                         steps++;
@@ -300,7 +299,7 @@ int move(int x,int y)
                 else
                     cout<<"\nCan't Move left Bro";
                 
-		if(kehidupan==0)
+				if(kehidupan==0)
                 {
                     cout<<"\n"<<player<<" Your Steps : "<<steps;
                     exit(0);
@@ -316,16 +315,16 @@ int move(int x,int y)
                         simpangan[x][y]='_';
                         if(!S.empty())
                         {  
-				K=S.top();
-			}
+							K=S.top();
+						}
 						
                         S.push(make_pair(x,y));
                         y+=1;
                         
-			if((K.first==x)&&(K.second==y))
+						if((K.first==x)&&(K.second==y))
                      	{  
-				kehidupan--;
-			}
+						 	kehidupan--;
+						}
 						
                         simpangan[x][y] = '*';
                         steps++;
@@ -356,16 +355,16 @@ int move(int x,int y)
                         simpangan[x][y]='_';
                         if(!S.empty())
                         {  
-				K=S.top();
-			}
+							K=S.top();
+						}
 						
                         S.push(make_pair(x,y));
                         x+=1;
                         
-			if((K.first==x)&&(K.second==y))
+						if((K.first==x)&&(K.second==y))
                      	{ 
-				kehidupan--;
-			}
+						 	kehidupan--;
+						}
 						
                         simpangan[x][y] = '*';
                         steps++;
@@ -421,7 +420,7 @@ int move(int x,int y)
                 break;
             }
             
-     	case 'Q':
+        	case 'Q':
             {
                 cout<<"\n"<<player<<" Your Steps : "<<steps;
                 termin=1;
@@ -440,11 +439,11 @@ int move(int x,int y)
         }
         }
 		
-	while(simpangan[x][y]!='@' && termin==0);
+		while(simpangan[x][y]!='@' && termin==0);
         return(termin);
 }
 
-void scoreBoard(int shortest , double percent)
+void score_play(int shortest , double percent)
 {
             int longest = (n*n)-(percent*n*n);
             int avg = (longest+shortest)/2;
@@ -469,34 +468,25 @@ void scoreBoard(int shortest , double percent)
                 {
                     count = (steps+1)-shortest;
                     if(count==1)
-                        score+=95;
+                        score+=94;
                         
                     else if(count==2)
-                        score+=90;
+                        score+=88;
                         
                     else if(count==3)
-                        score+=85;
+                        score+=82;
                         
                     else if(count==4)
-                        score+=80;
+                        score+=76;
                         
                      else if(count==5)
-                        score+=75;
-                        
-                     else if(count==6)
                         score+=70;
                         
-                     else if(count==7)
-                        score+=65;
-                        
-                     else if(count==8)
-                        score+=60;
-                        
-                     else if(count==9)
-                        score+=55;
+                     else if(count==6)
+                        score+=64;
                         
                     else
-                        score+=50;
+                        score+=55;
 
                 }
             }
@@ -571,7 +561,7 @@ int find_pl(string name,int count_player)
     return temp;
 }
 
-void create_leader()
+void create_lead()
 {
     sort(lead.begin(),lead.end(),compare);
     ofstream m4("n1.txt");
@@ -632,14 +622,12 @@ int find_player(string n1,int score_of_pl,int count_player)
     }
 }
 
-void show_leader()
+void show_lead()
 {
     int count_temp=1;
-   	cout<<"RANK"<<" "<<"NAME"<<" "<<"SCORE"<<" "<<endl;
-   		
 		for(int i=0;i<player_count;i++)
    		{
-       		cout<<count_temp<<" "<<lead[i].pl_name<<" "<<lead[i].pl_score<<endl;
+       		cout<<lead[i].pl_name<<" "<<lead[i].pl_score<<endl;
        		count_temp++;
    		}
 }
@@ -648,7 +636,7 @@ int main()
 {
      srand(time(NULL));
      string name;
-     int n=8;
+     int n=7;
      double c;
      
      cout<<"----------------------------------------------------------------------------------------------\n";
@@ -661,13 +649,13 @@ int main()
      cout<<endl;
      getchar();
      
-     //system("clear");
      cout<<"HI "<<name<<" "<<"WELCOME TO THE JUNGGLE !"<<endl<<endl;
      cout<<"\nLET ME TELL YOU, HOW TO GO OUT FROM HERE !"<<endl<<endl;
      cout<<"--------------------------------------- READ THIS : ---------------------------------------"<<endl<<endl;     
      cout<<"1. YOU HAVE 3 ADDITIONAL LIVES AND IT WILL REDUCE WHEN YOU TRY TO COPY YOUR PREVIOUS MOVE\n"<<endl;;
 	 cout<<"2. THERE ARE 5 JUNGGLES WITH DIFFERENT POINTS\n"<<endl;;
      cout<<"3. AVOID TAKING ROUTES FULL OF OBSTACLES AND GET TO THE PASSENGER ON TIME\n"<<endl;;
+     cout<<"4. IF YOU PASSES THE LIMIT OF THE JUNGGLE WHICH IS NOT THE WAY TO GO OUT, YOU WILL DIE\n"<<endl;;
      cout<<"-------------------------------------------------------------------------------------------\n"<<endl;;
      cout<<"\nPRESS ENTER TO PLAY"<<endl;
      
@@ -703,7 +691,7 @@ int main()
         
         if(!temp)
         {
-        JT.scoreBoard(sp,c);
+        JT.score_play(sp,c);
         cout<<"\nYour total Steps : "<<(JT.steps+1);
         cout<<"\nYour Score : "<<score;
         cout<<"\nMin Steps : "<<sp<<endl;
@@ -728,7 +716,6 @@ int main()
     int c_play = 0;
     get_player_count();
     find_player(JT.player,score,c_play);
-    create_leader();
-    show_leader();
-    return 0;
+    create_lead();
+    show_lead();
  }
