@@ -640,7 +640,7 @@ int main()
      double c;
      
      cout<<"----------------------------------------------------------------------------------------------\n";
-     cout<<"--------------------------------------- JUNGGLE'S TRAP ---------------------------------------\n";
+     cout<<"--------------------------------------- JUNGLE'S TRAP ---------------------------------------\n";
      cout<<"----------------------------------------------------------------------------------------------\n";
      cout<<"\n";
      cout<<"\nYour Name : ";
@@ -653,9 +653,9 @@ int main()
      cout<<"\nLET ME TELL YOU, HOW TO GO OUT FROM HERE !"<<endl<<endl;
      cout<<"--------------------------------------- READ THIS : ---------------------------------------"<<endl<<endl;     
      cout<<"1. YOU HAVE 3 ADDITIONAL LIVES AND IT WILL REDUCE WHEN YOU TRY TO COPY YOUR PREVIOUS MOVE\n"<<endl;;
-	 cout<<"2. THERE ARE 5 JUNGGLES WITH DIFFERENT POINTS\n"<<endl;;
+	 cout<<"2. THERE ARE 5 JUNGLES WITH DIFFERENT POINTS\n"<<endl;;
      cout<<"3. AVOID TAKING ROUTES FULL OF OBSTACLES AND GET TO THE PASSENGER ON TIME\n"<<endl;;
-     cout<<"4. IF YOU PASSES THE LIMIT OF THE JUNGGLE WHICH IS NOT THE WAY TO GO OUT, YOU WILL DIE\n"<<endl;;
+     cout<<"4. IF YOU PASSES THE LIMIT OF THE JUNGLE WHICH IS NOT THE WAY TO GO OUT, YOU WILL DIE\n"<<endl;;
      cout<<"-------------------------------------------------------------------------------------------\n"<<endl;;
      cout<<"\nPRESS ENTER TO PLAY"<<endl;
      
