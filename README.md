@@ -79,12 +79,14 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 	![Gambar 5](/Image/5.PNG)
 	![Gambar 6](/Image/6.PNG)
 	![Gambar 7](/Image/7.PNG)
-6. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
-7. When you choose a movement that crosses the forest boundary, you will out from the game.
+
+6. 8. When you reach the end of fifth level, the game will show leaderboard of the player.
+
+	![Gambar 8](/Image/8.PNG)
+
+7. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
+   When you choose a movement that crosses the forest boundary, you will out from the game.
 
 	![Gambar 9](/Image/9.PNG)
 	
-8. When you reach the end of fifth level, the game will show leaderboard of the player.
-
-	![Gambar 8](/Image/8.PNG)
 
