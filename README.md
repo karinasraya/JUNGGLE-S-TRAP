@@ -74,7 +74,7 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
    Do it until you reach the @ so you can out from the jungle and get score. 
 	![Gambar 3](/Image/3.PNG)
 
-5. After thet, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
+5. After that, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
 	![Gambar 4](/Image/4.PNG)
 	![Gambar 5](/Image/5.PNG)
 	![Gambar 6](/Image/6.PNG)
