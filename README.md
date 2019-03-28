@@ -22,7 +22,7 @@ For example, in the following graph, we start traversal from vertex 2. When we c
 ![Gambar](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/bfs-5.png)
 
 *The source code for BFS :*
-
+```cpp
         vector<bool> visited(nodes*nodes, false);
         vector<int> distance(nodes*nodes, 0);
         queue <int> Q;
@@ -45,8 +45,12 @@ For example, in the following graph, we start traversal from vertex 2. When we c
             	}
         }
         return distance[b];
+```
+## How To Play The Game ?
 
-#
+1. You need to build the .cpp file
 
-<b> How To Play The Game ? </b>
-
+using g++ compiler, the syntax should like below code
+```shell
+g++ "JUNGGLE'S_TRAP.cpp" -o game
+```
