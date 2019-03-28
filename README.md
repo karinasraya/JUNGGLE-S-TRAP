@@ -61,16 +61,20 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 
 	![Gambar Awal](/images/1.jpg)
 
-2. Press Enter
-3. You are in LEVEL 1 now. Your position now is marked with a * . Your Goal is to reach the @ in the jungle. 
+2. Press Enter to play the game
+3. Read the instructions carefully. You are in LEVEL 1 now. You have 3 lives. Your position now is marked with a ' * ' . Your Goal is to reach the '@' which is the exit way of the jungle. 'X' is the representative of the cliffs. 
 
 	![Gambar 2](/images/2.jpg)
 
 4. Choose your movement according to the instruction under the jungle. Do it step by step, one input for one movement.
-   For example : You choose to move right, so you should type D. Your * will move to the next maze.
+   For example : You choose to move right, so you should type D. Your * will move to the next column.
    
    	![Gambar 3]
 	
-5. Do it until you reach the @ so you can out from the jungle and get score. After thet, you can move to the next level. In this game there are 5 level.
+5. Do it until you reach the @ so you can out from the jungle and get score. After thet, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
 
 	![Gambar 4]
+
+6. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
+7. When you reach the end of fifth level, the game will show leaderboard of the player.
+8. Enjoy the game!
