@@ -62,19 +62,30 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 	![Gambar Awal](/Image/0.PNG)
 
 2. Press Enter to play the game
+	
+	![Gambar 1](/Image/1.PNG)
+	
 3. Read the instructions carefully. You are in LEVEL 1 now. You have 3 lives. Your position now is marked with a ' * ' . Your Goal is to reach the '@' which is the exit way of the jungle. 'X' is the representative of the cliffs. 
 
-	![Gambar 2](/images/2.jpg)
+	![Gambar 2](/Image/2.PNG)
 
 4. Choose your movement according to the instruction under the jungle. Do it step by step, one input for one movement.
    For example : You choose to move right, so you should type D. Your * will move to the next column.
-   
-   	![Gambar 3]
 	
-5. Do it until you reach the @ so you can out from the jungle and get score. After thet, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
+5. Do it until you reach the @ so you can out from the jungle and get score. 
+	![Gambar 3](/Image/3.PNG)
 
-	![Gambar 4]
+6. After thet, you can move to the next level. In this game there are 5 level. The number of column is increasing for each level.
+	![Gambar 4](/Image/4.PNG)
+	![Gambar 5](/Image/5.PNG)
+	![Gambar 6](/Image/6.PNG)
+	![Gambar 7](/Image/7.PNG)
+7. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
+8. When you choose a movement that crosses the forest boundary, you will out from the game.
 
-6. Your live can be reduced if you move back to your previous movement. When your live is 0, you lose and out from the game.
-7. When you reach the end of fifth level, the game will show leaderboard of the player.
-8. Enjoy the game!
+	![Gambar 9](/Image/9.PNG)
+	
+9. When you reach the end of fifth level, the game will show leaderboard of the player.
+
+	![Gambar 8](/Image/8.PNG)
+
