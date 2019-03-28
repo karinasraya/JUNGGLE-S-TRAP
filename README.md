@@ -56,5 +56,10 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 ```
 
 * execute the file that have been built
+* Then, let's play this game !
+1. First, insert your name, like this :
 
+	![Gambar Awal](/images/1.jpg)
+
+2. 
 
