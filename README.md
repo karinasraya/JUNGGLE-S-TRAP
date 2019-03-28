@@ -59,7 +59,7 @@ g++ "JUNGGLE'S_TRAP.cpp" -o game
 * Then, let's play this game !
 1. First, insert your name, like this :
 
-	![Gambar Awal](/images/1.jpg)
+	![Gambar Awal](/Images/0.PNG)
 
 2. Press Enter to play the game
 3. Read the instructions carefully. You are in LEVEL 1 now. You have 3 lives. Your position now is marked with a ' * ' . Your Goal is to reach the '@' which is the exit way of the jungle. 'X' is the representative of the cliffs. 
